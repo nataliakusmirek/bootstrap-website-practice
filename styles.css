@@ -9,8 +9,42 @@ body
 
 .home_section
 {
+
+}
+
+.name
+{
+    font-size: 50px;
+    transform: rotate(385deg);
+    margin-top: 465px;
+    margin-left: 250px;
     
 }
+
+.dev
+{
+    margin-left: 180px;
+    margin-top: -120px;
+    transform: rotate(412deg);
+    font-size:24px;
+}
+
+.ui
+{
+    font-size:21px;
+    margin-left:750px;
+    margin-top:-95px;
+    transform: rotate(375deg);
+}
+
+.tutor
+{
+    margin-left:1110px;
+    margin-top:-215px;
+    font-size:22px;
+    transform: rotate(363deg);
+}
+
 
 .project_section
 {
