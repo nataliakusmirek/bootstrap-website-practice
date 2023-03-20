@@ -19,6 +19,7 @@ body
     margin-top: 465px;
     margin-left: 250px;
     
+    
 }
 
 .dev
@@ -27,6 +28,7 @@ body
     margin-top: -120px;
     transform: rotate(412deg);
     font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .ui
@@ -35,6 +37,8 @@ body
     margin-left:750px;
     margin-top:-95px;
     transform: rotate(375deg);
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .tutor
@@ -43,6 +47,8 @@ body
     margin-top:-215px;
     font-size:22px;
     transform: rotate(363deg);
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 
