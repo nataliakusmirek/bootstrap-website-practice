@@ -1,9 +1,8 @@
-.home_section
+body
 {
     background-image: url("home\ main.png");
 }
 
 #navbar-example2{
-    background-image: url("taskbar.png");
     border-radius: 0 0 25px 25px;
 }
