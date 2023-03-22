@@ -63,9 +63,14 @@ body
 
 }
 
+#carousel
+{
+margin-bottom: 0px;
+}
+
 .carousel-caption
 {
-    top: 210px;
+    top: 215px;
     font-size: 15px;
     width: 420px;
     margin-left: 230px;
@@ -77,7 +82,7 @@ body
 .project_label
 {
     top: -550px;
-    width: 350px;
+    width: 360px;
     font-size: 18px;
     margin-top: 0px;
     margin-left: 30px;
@@ -86,5 +91,5 @@ body
 .p_desc
 {
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
