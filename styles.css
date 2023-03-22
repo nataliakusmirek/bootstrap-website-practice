@@ -55,4 +55,24 @@ body
 .project_section
 {
     margin-top: 400px;
+    background-image: url("project.jpg");
+    width: 1350px;
+    position: static;
+    display: flex;
+    
+
+}
+
+.carousel_item
+{
+    height: 500px;
+}
+.project_label
+{
+    top: -550px;
+}
+
+.p_desc
+{
+    font-family: 'Times New Roman', Times, serif;
 }
