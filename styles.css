@@ -55,24 +55,32 @@ body
 .project_section
 {
     margin-top: 400px;
-    width: 1350px;
+    width: 150px;
     position: static;
-    display: flex;
-    
 
+}
+
+#scrollspyheading2
+{
+    margin-top:3050px;
 }
 
 #carousel
 {
 margin-bottom: 0px;
+margin-left: 45px;
+width: 1400px;
+display: inline-block;
+margin-top: 0;
+padding-top: 0;
 }
 
 .carousel-caption
 {
-    top: 215px;
+    top: 250px;
     font-size: 15px;
     width: 420px;
-    margin-left: 230px;
+    margin-left: 290px;
 }
 .carousel_item
 {
@@ -90,7 +98,7 @@ margin-bottom: 0px;
 .p_desc
 {
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
 .card

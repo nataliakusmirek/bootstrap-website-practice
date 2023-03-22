@@ -20,7 +20,7 @@
             <a class="nav-link" href="#scrollspyHeading2">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link href="#scrollspyHeading3">Tutoring</a>
+            <a class="nav-link" href="#scrollspyHeading3">Tutoring</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#scrollspyHeading4">Contact</a>
@@ -42,8 +42,10 @@
         </div>
 
         <div class = "project_section">
-            <h2 id="scrollspyHeading2">Projects</h2>
+            <h2 id="scrollspyHeading2" class="projectcaption">Projects</h2>
 
+
+            <!-- carousel -->
             <div id="carousel" class="carousel carousel-dark slide " data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -52,14 +54,12 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1000">
-                  <img src="projectslides.png" class="d-block w-100 " alt="...">
+                  <img src="projectslides.png" class=" w-100 " alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <p>JANUARY 2021 - JULY 2021</p>
                     <h5 class = "project_label">Harvard University: CS50x Introduction to Computer Science</h5>
-                    <p class = "p_desc">"Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML."</p>
-                    <form action="https://github.com/nataliakusmirek/CS50x---Portfolio" method="get" target="_blank">
-                      <button type="button" class="btn btn-outline-dark">My Problem Sets + Labs</button>
-                    </form>
+                    <p class = "p_desc">"Topics include abstraction, algorithms, data structures, encapsulation, security, software engineering, and web development. Includes C, Python, SQL, and JavaScript plus CSS/HTML."</p>
+                    <button type="button" class="btn btn-outline-dark" onclick=" window.open('https://github.com/nataliakusmirek/CS50x---Portfolio', '_blank'); return false;">My Problem Sets + Labs</button>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="1000">
@@ -70,9 +70,7 @@
                     <p class = "p_desc">Learned HTML, CSS, Firebase, and React.js while 
                       designing and programming front-end for timer, manual entry, and history feature of the U.I.. Worked with students in graduate school/ages 18 to 24 to complete project.
                       </p>
-                      <form action="https://github.com/TechForGoodInc/Time-Reporting-System" method="get" target="_blank">
-                        <button type="button" class="btn btn-outline-dark">Github Repository</button>
-                      </form>
+                      <button type="button" class="btn btn-outline-dark" onclick=" window.open('https://github.com/TechForGoodInc/Time-Reporting-System', '_blank'); return false;">Github Repository</button>
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -81,9 +79,7 @@
                     <p>SEPTEMBER 2022 - JUNE 2023</p>
                     <h5 class = "project_label">Java Algorithms</h5>
                     <p> Java Projects created while taking AP Computer Science A, practicing syntax, algorithms, and abstraction.</p>
-                    <form action="https://github.com/nataliakusmirek/Java-Projects" method="get" target="_blank">
-                      <button type="button" class="btn btn-outline-dark">Github Repository</button>
-                    </form>
+                    <button type="button" class="btn btn-outline-dark" onclick="window.open('https://github.com/nataliakusmirek/Java-Projects', '_blank'); return false;">Github Repository</button>
                   </div>
                 </div>
               </div>
@@ -97,6 +93,7 @@
               </button>
             </div>
 
+            <!-- cards -->
             <div class="card" style="width: 18rem;">
               <img src="projectlink.png" class="card-img-top .bg-transparent" alt="...">
               <div class="card-body">
@@ -126,6 +123,8 @@
               </div>
             </div>
           </div>
+
+          
 
         <div class = "tutor_section">
             <h2 id="scrollspyHeading3">Tutoring</h2>
