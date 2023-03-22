@@ -63,6 +63,13 @@ body
 
 }
 
+.carousel-caption
+{
+    top: 210px;
+    font-size: 15px;
+    width: 420px;
+    margin-left: 230px;
+}
 .carousel_item
 {
     height: 500px;
@@ -70,9 +77,14 @@ body
 .project_label
 {
     top: -550px;
+    width: 350px;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 30px;
 }
 
 .p_desc
 {
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
 }
