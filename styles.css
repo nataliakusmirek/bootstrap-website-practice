@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("home\ main.png");
+    background-image: url("new.png");
 }
 
 #navbar-example2{
@@ -55,7 +55,6 @@ body
 .project_section
 {
     margin-top: 400px;
-    background-image: url("project.jpg");
     width: 1350px;
     position: static;
     display: flex;
@@ -92,4 +91,16 @@ margin-bottom: 0px;
 {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 70px;
+}
+
+.card
+{
+    height: 0.0001px;
+    display: block;
+
+}
+
+.card_title
+{
+
 }
