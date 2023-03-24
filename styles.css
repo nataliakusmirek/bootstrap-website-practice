@@ -54,25 +54,39 @@ body
 
 .project_section
 {
-    margin-top: 400px;
+    margin-top: 500px;
     width: 150px;
     position: static;
 
 }
 
-#scrollspyheading2
+
+#scrollspyHeading2
 {
-    margin-top:3050px;
+    margin-top: 620px;
+    font-size:28px;
+    margin-bottom: 0px;
+    margin-left: 450px;
+    transform: rotate(334deg);
+    font-family: 'Times New Roman', Times, serif;
 }
 
+#projectcomment
+{
+    margin-left:420px;
+    font-size:16px;
+    bottom: 0;
+    width: 500px;
+    transform: rotate(710deg);
+}
 #carousel
 {
 margin-bottom: 0px;
 margin-left: 45px;
 width: 1400px;
 display: inline-block;
-margin-top: 0;
-padding-top: 0;
+top: -120px;
+bottom: 0px;
 }
 
 .carousel-caption
@@ -88,7 +102,7 @@ padding-top: 0;
 }
 .project_label
 {
-    top: -550px;
+    top: -520px;
     width: 360px;
     font-size: 18px;
     margin-top: 0px;
@@ -99,16 +113,4 @@ padding-top: 0;
 {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
-}
-
-.card
-{
-    height: 0.0001px;
-    display: block;
-
-}
-
-.card_title
-{
-
 }
