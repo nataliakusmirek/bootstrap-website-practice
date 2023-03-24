@@ -64,7 +64,7 @@ body
 #scrollspyHeading2
 {
     margin-top: 620px;
-    font-size:28px;
+    font-size:32px;
     margin-bottom: 5px;
     margin-left: 708px;
     font-family: 'Times New Roman', Times, serif;
@@ -84,7 +84,7 @@ margin-left: 45px;
 width: 1400px;
 display: inline-block;
 top: -180px;
-bottom: 0px;
+bottom: -100px;
 }
 
 .carousel-caption
@@ -116,8 +116,9 @@ bottom: 0px;
 .project_cards
 {
     display:flex;
-    margin-left:210px;
+    margin-left:390px;
     width: 1000px;
+    margin-top: -200px;
 
 }
 
