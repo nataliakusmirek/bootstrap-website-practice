@@ -10,11 +10,11 @@
     <link rel="icon" href="logo.png">
 </head>
   <body>
-    <nav id="navbar-example2" class="navbar .bg-transparent    px-3 mb-3 ">
+    <nav id="navbar-example2" class="navbar .bg-transparent    px-3 mb-3 "id="scrollspyHeading1">
         <a class="navbar-brand" href="#"><img src="logo.png" alt="Bootstrap" width="78" height="74"></a>
         <ul class="nav nav-pills ">
           <li class="nav-item">
-            <a class="nav-link " href="#scrollspyHeading1">Home</a>
+            <a class="nav-link " href="#scrollspyHeading1">Start</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#scrollspyHeading2">Projects</a>
@@ -34,7 +34,6 @@
 
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example .bg-transparent p-3 rounded-2" tabindex="0">
         <div class = "home_section">
-          <p id="scrollspyHeading1"></p>
             <h1 class = "name">Hi, I'm Natalia.</h1>
             <h3 class = "dev">full stack developer</h3>
             <h3 class = "ui">ui designer</h3>
@@ -156,19 +155,25 @@
         </div>
 
         <div class = "contact_section">
-            <h2 id="scrollspyHeading4">Contact</h2>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            <h2 id="scrollspyHeading4">let's get in <i>touch</i>.</h2>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1" style="font-family: Times New Roman; font-size:23px;">email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"style="font-family: Times New Roman; font-size:23px;">message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1 " rows="3" placeholder="Hello, I am interested in registering my child for private tutoring."></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+            <img src="sketch2.png" class="sketch2">
+            <footer>Created by <i>Natalia Kusmirek</i>.</footer>
         </div>
         
       </div>
-
+      
 
 
 
@@ -176,4 +181,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
-</html>
+</html>>
