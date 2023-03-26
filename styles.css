@@ -134,3 +134,56 @@ bottom: -100px;
     transform:scaleX(-1);
 
 }
+
+#scrollspyHeading3
+{
+    margin-top: 350px;
+    font-size:32px;
+    margin-bottom: 5px;
+    margin-left: 545px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tutorcomment
+{
+    margin-left:545px;
+    font-size:16px;
+    bottom: 0;
+    width: 500px;
+}
+
+.tutorinfo
+{
+    width: 990px;
+    height: 550px;
+    margin-bottom:0;
+    position:absolute;
+    margin-left: 250px;
+}
+
+.tutormodel
+{
+    width: 900px;
+    height: 500px;
+    margin-left:290px;
+    position: absolute;
+    margin-top:380px;
+}
+
+#projectex
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:23px;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 500px;
+}
+
+#learntex
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:23px;
+    position: absolute;
+    margin-left:860px;
+    margin-top: 500px;
+}
