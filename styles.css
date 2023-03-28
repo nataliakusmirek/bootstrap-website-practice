@@ -117,26 +117,41 @@ bottom: -100px;
 
 .project_cards
 {
-    display:flex;
-    margin-left:390px;
-    width: 1000px;
-    margin-top: -200px;
+    display:inline-flex;
+    margin-top: -1200px;
+    margin-bottom: 0px;
+    
 
 }
 
-#gradLEFT
+#p1
 {
-    width:120px;
-    height:35px;
+    width: 2000px;
+    margin-left: 27px;
+    height: 200px;
+    top:-300px;
 }
-#gradRIGHT
+#p2
 {
-    width:120px;
-    height:35px;
-    transform:scaleX(-1);
-
+    width: 2000px;
+    margin-left:87px;
+    height: 200px;
+    top:-300px;
 }
-
+#p3
+{
+    width: 2000px;
+    margin-left: 800px;
+    height: 200px;
+    top:-516px;
+}
+#p4
+{
+    width: 2000px;
+    margin-left: 1180px;
+    height: 200px;
+    top:-732px;
+}
 #scrollspyHeading3
 {
     margin-top: 350px;
@@ -222,10 +237,28 @@ bottom: -100px;
 #footer
 {
     position:absolute;
-    margin-left:320px;
+    margin-left:300px;
     margin-top:150px;
 }
 #email
 {
     margin-top:20px;
 }
+
+.git
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
