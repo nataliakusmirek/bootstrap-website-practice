@@ -10,43 +10,38 @@ body {
 .home_section {
 }
 
+.iconstop
+{
+  position: absolute;
+  width: 1100px;
+  height: 600px;
+  
+}
+
 .name {
    position: absolute;
-  font-size: 50px;
-  transform: rotate(385deg);
-  margin-top: 250px;
-  margin-left: 250px;
+  font-size: 35px;
+  margin-top: 150px;
+  margin-left: 520px;
+  color: white;
 }
 
 .dev {
   position: absolute;
-  margin-left: 475px;
-  margin-top: 10px;
-  transform: rotate(411deg);
+  margin-left: 520px;
+  margin-top: 220px;
   font-size: 24px;
-  font-family: "Times New Roman", Times, serif;
+  width: 300px;
+  color: white;
+
 }
 
-.ui {
-    position: absolute;
-
-  font-size: 21px;
-  margin-left: 850px;
-  margin-top: 330px;
-  transform: rotate(370deg);
-  font-family: "Times New Roman", Times, serif;
+.projecticons
+{
+  width: 1200px;
+  height: 500px;
+  margin-top: 1200px;
 }
-
-.tutor {
-    position: absolute;
-
-  margin-left: 1080px;
-  margin-top: 130px;
-  font-size: 22px;
-  transform: rotate(363deg);
-  font-family: "Times New Roman", Times, serif;
-}
-
 .project_section {
   margin-top: 1100px;
   width: 150px;
@@ -70,18 +65,18 @@ body {
 }
 #carousel {
   margin-bottom: 0px;
-  margin-left: 45px;
-  width: 1400px;
+  margin-left: 190px;
+  width: 1100px;
   display: inline-block;
   top: -180px;
   bottom: -100px;
 }
 
 .carousel-caption {
-  top: 250px;
+  top: 170px;
   font-size: 15px;
   width: 420px;
-  margin-left: 290px;
+  margin-left: 190px;
 }
 .carousel_item {
   height: 500px;
