@@ -4,21 +4,31 @@ body {
 
 #navbar-example2 {
   border-radius: 0 0 25px 25px;
-  position: sticky;
+  position: fixed;
 }
+#icon{
 
-.home_section {
+}
+nav.sticky
+{
+  padding: 5px 100px;
+  background: rgba(0,0,0,0.2);
+  
 }
 
 .iconstop
 {
   position: static;
-  width: 1100px;
+  width: 1150px;
   margin-top:-10px;
-  height: 600px;
+  height: 620px;
   
 }
-
+.home_section
+{
+  margin-top: 130px;
+  margin-bottom: 1115px;
+}
 .name {
    position: absolute;
   font-size: 39px;
@@ -38,7 +48,12 @@ body {
 
 
 }
-
+.mindenter
+{
+  color: white;
+  position: absolute;
+  margin-top: 310px;
+}
 .orb1
 {
   position: absolute;
@@ -57,7 +72,7 @@ body {
   margin-top: 1000px;
   width: 150px;
   position: static;
-  margin-bottom: 300px;
+  margin-bottom: 500px;
 }
 
 #scrollspyHeading2 {
@@ -86,10 +101,12 @@ body {
 }
 
 .carousel-caption {
-  top: 150px;
+  top: 160px;
   font-size: 15px;
   width: 420px;
   margin-left: 145px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .carousel_item {
   height: 500px;
@@ -99,7 +116,7 @@ body {
   top: -500px;
   width: 360px;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: -15px;
   margin-left: 30px;
 }
 
@@ -191,30 +208,44 @@ body {
   height: 350px;
   margin-left: 880px;
   position: absolute;
-  margin-top: 740px;
+  margin-top: 440px;
 }
-.tutoricon
+
+.dstudent
 {
   position: absolute;
-  width: 400px;
-  height: 280px;
-  margin-left: 580px;
-  margin-top: 450px;
+  margin-left: 460px;
+  margin-top: 470px;
+  width: 590px;
+  height: 300px;
 }
-#projectex {
+#number
+{
+  font-size: 35px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 23px;
+  color: white;
+
+}
+
+#projectex {
+  font-size: 15px;
   position: absolute;
-  margin-left: 990px;
-  margin-top: 790px;
+  margin-left: 1000px;
+  margin-top: 580px;
+  width: 120px;
+  margin-bottom: 0px;
+  color: rgb(107, 17, 17);
+
 }
 
 #learntex {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 23px;
+  font-size: 15px;
   position: absolute;
-  margin-left: 1260px;
-  margin-top: 790px;
+  margin-left: 1270px;
+  margin-top: 580px;
+  width: 120px;
+  color: rgb(107, 17, 17);
+
 }
 
 .contact_section {
@@ -222,7 +253,7 @@ body {
   margin-left: 330px;
   width: 850px;
   position: absolute;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 #scrollspyHeading4 {
   margin-top: 120px;
@@ -235,16 +266,15 @@ body {
   position: absolute;
   width: 670px;
   height: 400px;
-  margin-top:-150px;
+  margin-top:-100px;
 }
 
 #footer {
   position: absolute;
-  margin-top: 280px;
+  margin-top: 230px;
 }
 #email {
-margin-top: -90px;
-margin-bottom: 50px;
+margin-top: -30px;
 font-family: "Times New Roman", Times, serif;
 
 }
