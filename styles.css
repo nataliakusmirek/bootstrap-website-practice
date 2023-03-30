@@ -31,7 +31,7 @@ nav.sticky
   margin-bottom: 1115px;
 }
 
-#btn_link
+btn_link
 {
   padding-top: 0px;
   padding-bottom: 2px;
@@ -286,8 +286,7 @@ nav.sticky
   margin-top: 230px;
 }
 #email {
-margin-top: -30px;
-margin-left: -00px;
+margin-top: -40px;
 font-family: "Times New Roman", Times, serif;
 
 }
