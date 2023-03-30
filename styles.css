@@ -5,6 +5,7 @@ body {
 #navbar-example2 {
   border-radius: 0 0 25px 25px;
   position: fixed;
+  float: center;
 }
 #icon{
 
@@ -29,6 +30,16 @@ nav.sticky
   margin-top: 130px;
   margin-bottom: 1115px;
 }
+
+.btn
+{
+  padding-top: 0px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 260px;
+}
+
 .name {
    position: absolute;
   font-size: 39px;
@@ -258,7 +269,7 @@ nav.sticky
 #scrollspyHeading4 {
   margin-top: 120px;
   margin-bottom: 270px;
-  margin-left: 300px;
+  margin-left: 280px;
   font-size: 38px;
 }
 
@@ -275,6 +286,7 @@ nav.sticky
 }
 #email {
 margin-top: -30px;
+margin-left: -00px;
 font-family: "Times New Roman", Times, serif;
 
 }
