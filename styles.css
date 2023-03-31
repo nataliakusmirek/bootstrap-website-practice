@@ -35,15 +35,17 @@ opacity: 0px;
   margin-left: 20px;
 }
 
-btn_link
+#btn_link
 {
-  padding-top: 0px;
   padding-bottom: 2px;
+  padding-top: 0px;
   padding-left: 2px;
   padding-right: 2px;
+  margin-top: 5px;
   margin-left: 260px;
 
 }
+
 
 .name {
    position: absolute;
